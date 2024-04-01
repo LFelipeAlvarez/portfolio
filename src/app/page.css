@@ -145,6 +145,7 @@
 
 .article__img {
     border-radius: 2rem;
+    width: 100%;
     max-width: 25rem;
     margin-inline: auto;
     transform: rotate(-4deg);

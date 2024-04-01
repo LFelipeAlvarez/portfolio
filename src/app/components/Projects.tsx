@@ -56,7 +56,7 @@ const Projects = () => {
 
                 <h2 className="section__title section__title--smaller">Proyectos</h2>
                 <main className="section__main">
-                    {ProjectsObj.map(project => <article className="card card--2">
+                    {ProjectsObj.map((project, i) => <article key={i} className="card card--2">
                         <div className="card__group card__img-container">
                             <img className="card__img" src={project.img} alt={project.title} />
                         </div>
@@ -65,7 +65,7 @@ const Projects = () => {
                             <main className="card__main">
                                 <p>{project.description}</p>
                                 <ul className="card__list card__list--rounded">
-                                    {project.technologies.map(tech => <li className="card__rounded">{tech}</li>)}
+                                    {project.technologies.map((tech, i) => <li key={i} className="card__rounded">{tech}</li>)}
                                 </ul>
                             </main>
 

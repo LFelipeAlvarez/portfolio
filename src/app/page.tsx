@@ -82,31 +82,24 @@ export default function Home() {
               <ul className="grid">
                 <li className="grid__item">
                   <img className='grid__img' src="/html5.svg" alt="HTML icon" />
-                  {/* HTML */}
                 </li>
                 <li className="grid__item">
                   <img className='grid__img' src="/css.svg" alt="CSS icon" />
-                  {/* CSS */}
                 </li>
                 <li className="grid__item">
                   <img className='grid__img' src="/javascript.svg" alt="JavaScript icon" />
-                  {/* JavaScript */}
                 </li>
                 <li className="grid__item">
                   <img className='grid__img' src="/typescript.svg" alt="typescript icon" />
-                  {/* Typescript */}
                 </li>
                 <li className="grid__item">
                   <img className='grid__img' src="/react.svg" alt="react icon" />
-                  {/* React */}
                 </li>
                 <li className="grid__item">
                   <img className='grid__img' src="/sass.svg" alt="sass icon" />
-                  {/* Sass */}
                 </li>
                 <li className="grid__item">
                   <img className='grid__img' src="/git.svg" alt="git icon" />
-                  {/* Git */}
                 </li>
               </ul>
             </div>
