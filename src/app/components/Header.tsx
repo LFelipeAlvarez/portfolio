@@ -1,27 +1,24 @@
 'use client';
-import React, { useState } from 'react'
+import LanguageContext from '@/context/LanguageContext';
+import React, { useContext, useState } from 'react'
 
 const Header = () => {
     const [isNavVisible, setIsNavVisible] = useState(false);
+    const [language, setLanguage] = useContext(LanguageContext);
+    const { nav } = language;
     return (
         <header className='header'>
-            {/* <div className="header__inner"> */}
-
             <nav className="nav">
-                {/* <div>LOGO</div> */}
-
                 <ul className={isNavVisible ? 'nav__list nav__list--visible' : 'nav__list'}>
-                    {/* <li className='nav__item'>
-                        <a className='nav__link' href="#about">Sobre mí</a>
-                    </li> */}
+
                     <li className='nav__item'>
-                        <a className='nav__link' href="#experience">Experiencia</a>
+                        <a className='nav__link' href="#experience">{nav[0]}</a>
                     </li>
                     <li className='nav__item'>
-                        <a className='nav__link' href="#projects">Proyectos</a>
+                        <a className='nav__link' href="#projects">{nav[1]}</a>
                     </li>
                     <li className='nav__item'>
-                        <a className='nav__link' href="#skills">Tecnologías</a>
+                        <a className='nav__link' href="#skills">{nav[2]}</a>
                     </li>
                 </ul>
 
@@ -33,10 +30,14 @@ const Header = () => {
                     }
                 </div>
 
+                <div className='header__language'>
+                    <img onClick={() => language !== 'es' && setLanguage('es')} className='header__img-button' src="/es.svg" alt="spain flag" />
+
+                    <img onClick={() => language !== 'en' && setLanguage('en')} className='header__img-button' src="/gb.svg" alt="united kingdom flag" />
+                </div>
+
 
             </nav>
-            {/* </div> */}
-
         </header>
     )
 }

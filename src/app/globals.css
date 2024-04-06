@@ -47,7 +47,6 @@ video,
 iframe,
 figure {
   max-width: 100%;
-  /* width: 100%; */
   display: block;
 }
 
@@ -69,5 +68,4 @@ li {
 svg {
   width: 100%;
   display: block;
-  /* fill: currentColor; */
 }

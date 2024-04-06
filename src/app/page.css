@@ -8,6 +8,7 @@
     border-bottom: 1px solid var(--gray-dark-100);
     background-color: rgba(var(--gray-dark), 0.2);
     backdrop-filter: blur(3px);
+    z-index: 5;
 }
 
 
@@ -45,13 +46,6 @@
 .nav__list--visible {
     opacity: 1;
     visibility: visible;
-
-    /* background: rgba(255, 255, 255, 0.2); */
-    /* border-radius: 16px; */
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-    /* backdrop-filter: blur(2px); */
-    /* -webkit-backdrop-filter: blur(10px); */
-    /* border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 .nav__item {
@@ -70,6 +64,17 @@
 
 .nav__link:hover {
     background-color: var(--gray-dark-50);
+}
+
+.header__language {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.header__img-button {
+    width: 25px;
+    cursor: pointer;
 }
 
 
@@ -197,15 +202,6 @@
 
 .section--2 {
     background-color: var(--gray-dark-50);
-
-    .section__inner {
-        /* max-width: 56.25rem; */
-
-    }
-
-    .section__title {
-        /* text-align: center; */
-    }
 }
 
 .section__title--smaller {
@@ -229,10 +225,6 @@
     max-width: none;
     margin-bottom: 4rem;
     column-gap: 4rem;
-
-    /* &:hover .card__img {
-        transform: scale(1);
-    } */
 }
 
 
@@ -272,23 +264,10 @@
     row-gap: 1rem;
 }
 
-.card__item {
-    /* list-style: disc; */
-
-}
-
-.card__img-container {
-    /* overflow: hidden; */
-
-}
-
 .card__img {
     border-radius: 10px;
     transition: transform .2s ease;
 }
-
-
-
 
 .card__list--rounded {
     flex-direction: row;
@@ -314,8 +293,6 @@
     column-gap: .5rem;
     justify-content: center;
     align-items: center;
-    /* background-color: var(--gray-dark-600);
-    color: var(--gray-dark); */
     border: 1px solid var(--gray-dark-600);
     border-radius: .75rem;
 }
@@ -382,13 +359,14 @@
 @media (min-width: 45rem) {
     .nav__list {
         position: static;
-        width: auto;
+        width: initial;
         visibility: visible;
         opacity: 1;
         display: flex;
         column-gap: 1rem;
         background-color: inherit;
         padding: 0;
+        margin-inline: initial;
     }
 
     .nav__button {
