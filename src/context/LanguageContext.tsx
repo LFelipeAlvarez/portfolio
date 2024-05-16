@@ -102,13 +102,21 @@ const contentByLanguage = {
                     prevUrl: 'https://lf-memorygame.netlify.app/'
                 },
 
+                // {
+                //     title: 'Gestion de Tareas',
+                //     img: '/shots_so3.png',
+                //     description: 'Aplicación práctica para la gestión eficiente de tareas que permite a los usuarios crear, organizar y gestionar sus tareas diarias. Con funciones como marcar tareas como completadas, ordenar por prioridad, filtrar por categoría, esta aplicación ayuda a los usuarios a mantenerse organizados y productivos.',
+                //     technologies: ['HTML', 'CSS', 'React', 'SASS'],
+                //     repoUrl: 'https://github.com/LFelipeAlvarez/frontend-quiz-app',
+                //     prevUrl: 'https://todo-app-fm.netlify.app/'
+                // },
                 {
                     title: 'Gestion de Tareas',
-                    img: '/shots_so3.png',
+                    img: '/shots_so6.png',
                     description: 'Aplicación práctica para la gestión eficiente de tareas que permite a los usuarios crear, organizar y gestionar sus tareas diarias. Con funciones como marcar tareas como completadas, ordenar por prioridad, filtrar por categoría, esta aplicación ayuda a los usuarios a mantenerse organizados y productivos.',
-                    technologies: ['HTML', 'CSS', 'React', 'SASS'],
-                    repoUrl: 'https://github.com/LFelipeAlvarez/frontend-quiz-app',
-                    prevUrl: 'https://todo-app-fm.netlify.app/'
+                    technologies: ['HTML', 'CSS', 'React', 'Express', 'MySQL'],
+                    repoUrl: 'https://github.com/LFelipeAlvarez/task-management',
+                    prevUrl: 'https://task-management-challenge.netlify.app/'
                 },
                 {
                     title: 'Landing Page con Acortador de URLs',
@@ -175,13 +183,21 @@ const contentByLanguage = {
                     repoUrl: 'https://github.com/LFelipeAlvarez/memory-game',
                     prevUrl: 'https://lf-memorygame.netlify.app/'
                 },
+                // {
+                //     title: 'Task Management',
+                //     img: '/shots_so3.png',
+                //     description: 'Practical application for efficient task management that allows users to create, organize, and manage their daily tasks. With features like marking tasks as completed, sorting by priority, filtering by category, this application helps users stay organized and productive.',
+                //     technologies: ['HTML', 'CSS', 'React', 'SASS'],
+                //     repoUrl: 'https://github.com/LFelipeAlvarez/frontend-quiz-app',
+                //     prevUrl: 'https://todo-app-fm.netlify.app/'
+                // },
                 {
                     title: 'Task Management',
-                    img: '/shots_so3.png',
+                    img: '/shots_so6.png',
                     description: 'Practical application for efficient task management that allows users to create, organize, and manage their daily tasks. With features like marking tasks as completed, sorting by priority, filtering by category, this application helps users stay organized and productive.',
-                    technologies: ['HTML', 'CSS', 'React', 'SASS'],
-                    repoUrl: 'https://github.com/LFelipeAlvarez/frontend-quiz-app',
-                    prevUrl: 'https://todo-app-fm.netlify.app/'
+                    technologies: ['HTML', 'CSS', 'React', 'Express', 'MySQL'],
+                    repoUrl: 'https://github.com/LFelipeAlvarez/task-management',
+                    prevUrl: 'https://task-management-challenge.netlify.app/'
                 },
                 {
                     title: 'URL Shortener Landing Page',
