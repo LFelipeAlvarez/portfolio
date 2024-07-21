@@ -63,7 +63,7 @@ const contentByLanguage = {
                 {
                     title: 'Programador Web',
                     company: 'Talent.com',
-                    date: 'Agosto 2021 - Presente',
+                    date: 'Agosto 2021 - Junio 2024',
                     tasks: [
                         'Creacion de scripts para extraer información de diferentes páginas web usando Javascript/PHP.',
                         'Optimización de código aplicando buenas prácticas y código moderno ES6.',
@@ -76,6 +76,14 @@ const contentByLanguage = {
             title: 'Proyectos',
             textButtonRepo: 'Código',
             items: [
+                {
+                    title: 'NoteCode',
+                    img: '/shots_so7.png',
+                    description: 'NoteCode es una aplicación web elegante y fácil de usar diseñada para que los desarrolladores almacenen, organicen y compartan fragmentos de código. Con una interfaz limpia e intuitiva, simplifica el proceso de gestión de sus recursos de codificación.',
+                    technologies: ['HTML', 'CSS', 'React', 'Typescript', 'MongoDB', 'Express', 'Mongoose', 'Zod'],
+                    repoUrl: 'https://github.com/LFelipeAlvarez/note-code-app',
+                    prevUrl: 'https://note-code.netlify.app/'
+                },
                 {
                     title: 'Frontend Quiz App',
                     img: '/shots_so1.png',
@@ -101,20 +109,11 @@ const contentByLanguage = {
                     repoUrl: 'https://github.com/LFelipeAlvarez/memory-game',
                     prevUrl: 'https://lf-memorygame.netlify.app/'
                 },
-
-                // {
-                //     title: 'Gestion de Tareas',
-                //     img: '/shots_so3.png',
-                //     description: 'Aplicación práctica para la gestión eficiente de tareas que permite a los usuarios crear, organizar y gestionar sus tareas diarias. Con funciones como marcar tareas como completadas, ordenar por prioridad, filtrar por categoría, esta aplicación ayuda a los usuarios a mantenerse organizados y productivos.',
-                //     technologies: ['HTML', 'CSS', 'React', 'SASS'],
-                //     repoUrl: 'https://github.com/LFelipeAlvarez/frontend-quiz-app',
-                //     prevUrl: 'https://todo-app-fm.netlify.app/'
-                // },
                 {
                     title: 'Gestion de Tareas',
                     img: '/shots_so6.png',
                     description: 'Aplicación práctica para la gestión eficiente de tareas que permite a los usuarios crear, organizar y gestionar sus tareas diarias. Con funciones como marcar tareas como completadas, ordenar por prioridad, filtrar por categoría, esta aplicación ayuda a los usuarios a mantenerse organizados y productivos.',
-                    technologies: ['HTML', 'CSS', 'React', 'Express', 'MySQL'],
+                    technologies: ['HTML', 'CSS', 'React','Typescript', 'Express', 'MySQL'],
                     repoUrl: 'https://github.com/LFelipeAlvarez/task-management',
                     prevUrl: 'https://task-management-challenge.netlify.app/'
                 },
@@ -146,7 +145,7 @@ const contentByLanguage = {
                 {
                     title: 'Web Developer',
                     company: 'Talent.com',
-                    date: 'August 2021 - Present',
+                    date: 'August 2021 - June 2024',
                     tasks: [
                         'Script creation to extract information from different web pages using Javascript/PHP.',
                         'Code optimization by applying best practices and modern ES6 code.',
@@ -159,6 +158,14 @@ const contentByLanguage = {
             title: 'Projects',
             textButtonRepo: 'Code',
             items: [
+                {
+                    title: 'NoteCode',
+                    img: '/shots_so7.png',
+                    description: 'NoteCode is a sleek, user-friendly web application designed for developers to store, organize, and share code snippets. With a clean, intuitive interface, it simplifies the process of managing your coding resources.',
+                    technologies: ['HTML', 'CSS', 'React', 'Typescript', 'MongoDB', 'Express', 'Mongoose', 'Zod'],
+                    repoUrl: 'https://github.com/LFelipeAlvarez/note-code-app',
+                    prevUrl: 'https://note-code.netlify.app/'
+                },
                 {
                     title: 'Frontend Quiz App',
                     img: '/shots_so1.png',
@@ -183,19 +190,11 @@ const contentByLanguage = {
                     repoUrl: 'https://github.com/LFelipeAlvarez/memory-game',
                     prevUrl: 'https://lf-memorygame.netlify.app/'
                 },
-                // {
-                //     title: 'Task Management',
-                //     img: '/shots_so3.png',
-                //     description: 'Practical application for efficient task management that allows users to create, organize, and manage their daily tasks. With features like marking tasks as completed, sorting by priority, filtering by category, this application helps users stay organized and productive.',
-                //     technologies: ['HTML', 'CSS', 'React', 'SASS'],
-                //     repoUrl: 'https://github.com/LFelipeAlvarez/frontend-quiz-app',
-                //     prevUrl: 'https://todo-app-fm.netlify.app/'
-                // },
                 {
                     title: 'Task Management',
                     img: '/shots_so6.png',
                     description: 'Practical application for efficient task management that allows users to create, organize, and manage their daily tasks. With features like marking tasks as completed, sorting by priority, filtering by category, this application helps users stay organized and productive.',
-                    technologies: ['HTML', 'CSS', 'React', 'Express', 'MySQL'],
+                    technologies: ['HTML', 'CSS', 'React', 'Typescript','Express', 'MySQL'],
                     repoUrl: 'https://github.com/LFelipeAlvarez/task-management',
                     prevUrl: 'https://task-management-challenge.netlify.app/'
                 },

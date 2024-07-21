@@ -47,7 +47,7 @@ const Main = () => {
                             </footer>
                         </article>
                         <article className="section__article">
-                            <img className="article__img" src="/profile.png" alt="profile picture" />
+                            <img className="article__img" src="/profile2.png" alt="profile picture" />
                         </article>
                     </div>
                 </section>
